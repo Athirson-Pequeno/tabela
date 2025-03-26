@@ -1,26 +1,45 @@
+td:nth-child(even) {
+  background-color: #c3c3c3;
+}
+
 body {
   width: 100%;
 }
 
 .top3 {
-  background-color: rgb(0, 140, 255);
+  color: rgb(0, 80, 145);
 }
 
 .top5 {
-  background-color: rgb(101, 186, 255);
+  color: rgb(101, 186, 255);
 }
 
 .top6 {
-  background-color: rgb(101, 255, 114);
+  color: rgb(34, 158, 44);
 }
 
 .top10 {
-  background-color: rgb(255, 101, 101);
+  color: rgb(177, 17, 17);
 }
 
 table {
   margin: 0 auto;
   border: black solid 2px;
+}
+
+.vitoria {
+  color: green;
+  font-size: 25px;
+}
+
+.derrota {
+  color: red;
+  font-size: 25px;
+}
+
+.empate {
+  color: grey;
+  font-size: 25px;
 }
 
 h1 {
@@ -30,7 +49,6 @@ h1 {
 td {
   min-width: 50px;
   text-align: center;
-  border-left: #ccc solid 1px;
 }
 
 th {
@@ -42,7 +60,7 @@ th {
 .classificacao {
   display: flex;
   align-items: center;
-  background-color: #ccc;
+  background-color: #ffffff;
   padding: 2px 5px 2px 5px;
 }
 

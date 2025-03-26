@@ -1,0 +1,38 @@
+table {
+  margin: 0 auto;
+  border: black solid 2px;
+}
+h1 {
+  text-align: center;
+}
+
+td {
+  min-width: 50px;
+  text-align: center;
+  border-left: #ccc solid 1px;
+}
+
+th {
+  color: white;
+  background-color: rgb(71, 71, 71);
+  padding: 7px;
+}
+
+.classificacao {
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+  padding: 2px 5px 2px 5px;
+}
+
+.posicao {
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 50px;
+}
+
+body {
+  width: 100%;
+}

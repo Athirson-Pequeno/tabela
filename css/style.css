@@ -1,7 +1,28 @@
+body {
+  width: 100%;
+}
+
+.top3 {
+  background-color: rgb(0, 140, 255);
+}
+
+.top5 {
+  background-color: rgb(101, 186, 255);
+}
+
+.top6 {
+  background-color: rgb(101, 255, 114);
+}
+
+.top10 {
+  background-color: rgb(255, 101, 101);
+}
+
 table {
   margin: 0 auto;
   border: black solid 2px;
 }
+
 h1 {
   text-align: center;
 }
@@ -31,24 +52,4 @@ th {
   justify-content: space-between;
   align-items: center;
   min-width: 50px;
-}
-
-body {
-  width: 100%;
-}
-
-.top3{
-    background-color: rgb(0, 140, 255);
-}
-
-.top5{
-    background-color: rgb(101, 186, 255);
-}
-
-.top6{
-    background-color: rgb(101, 255, 114);
-}
-
-.top10{
-    background-color: rgb(255, 101, 101);
 }

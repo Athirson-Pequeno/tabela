@@ -36,3 +36,19 @@ th {
 body {
   width: 100%;
 }
+
+.top3{
+    background-color: rgb(0, 140, 255);
+}
+
+.top5{
+    background-color: rgb(101, 186, 255);
+}
+
+.top6{
+    background-color: rgb(101, 255, 114);
+}
+
+.top10{
+    background-color: rgb(255, 101, 101);
+}
